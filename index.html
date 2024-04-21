@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    <script src="script.js"></script>
+    <title>Liferando</title>
+</head>
+<body onload="render()">
+    <div class="main">
+        <div class="navbar">
+            <img src="./photos/liferando.png">
+            <button onclick="openBasket()"><img src="./photos/warenkorb/add-to-cart.png"></button>
+        </div>
+        <div class="body-products">
+            <div class="sidenav">
+                <div class="side-header">
+                    <span2 class="close" onclick="closeBasket()">&times;</span2>
+                    <h2>Warenkorb</h2>
+                    <img src="./photos/warenkorb/invoice.png">
+                    <div class="basket" id="basket">
+                
+                    </div>
+                    <div class="side-total" id="subtotal">
+
+                    </div>
+                    <div class="side-lifer" id="liferKosten">
+
+                    </div>
+                    <div class="bezahlen" id="btn">
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="products">
+                <div class="headline-wrapper">
+                    <div class="headline-img">
+                        <img src="./photos/header.JPG">
+                    </div>
+                    <div class="headline-info">
+                        <div class="headline-main">
+                            <div class="headline-logo">
+                               <img src="./photos/logo_465x320.png">
+                            </div>
+                            <div class="headline-information">
+                                <h2>Pizza Max</h2>
+                                <div class="star-rating">
+                                    <input type="radio" id="star5" name="rating" class="star" value="5">
+                                    <label for="star5">&#9733;</label>
+                                    <input type="radio" id="star4" name="rating" class="star" value="4">
+                                    <label for="star4">&#9733;</label>
+                                    <input type="radio" id="star3" name="rating" class="star" value="3" checked>
+                                    <label for="star3">&#9733;</label>
+                                    <input type="radio" id="star2" name="rating" class="star" value="2">
+                                    <label for="star2">&#9733;</label>
+                                    <input type="radio" id="star1" name="rating" class="star" value="1">
+                                    <label for="star1">&#9733;</label>
+                                    <span>355 Bewerbung</span>
+                                </div>
+                                <div class="menu-popular">
+                                    <div class="main-menu">
+                                        <a class="men2" href="#ak123">Aktion</a>
+                                        <a class="men2" href="#1234">Pizza Klassiker</a>
+                                        <a class="men2" href="#12345">Pizza Premium</a>
+                                        <a class="men2" href="#123456">Burgers</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="products-main">
+                        <div class="product-class">
+                            <div class="products-aktion">
+                                <div class="aktion" id="ak123">
+                                    <H2>Aktion</H2>
+                                    <div class="post-container-aktion" id="containerAktion">
+
+                                   </div>
+                                </div>
+                                <div class="aktion">
+                                    <div class="big-photo"></div>
+                                </div>
+                                <div class="aktion" id="1234">
+                                    <H2>Pizza Klassiker</H2>
+                                    <div id="pizzaKlassiker"></div>
+                                </div>
+                                <div class="aktion">
+                                    <div class="big-photo2"></div>
+                                </div>
+                                <div class="aktion" id="12345">
+                                    <H2>Pizza Premium</H2>
+                                    <div id="pizzaPremium"></div>
+                                </div>
+                                <div class="aktion">
+                                    <div class="big-photo3"></div>
+                                </div>
+                                <div class="aktion" id="123456">
+                                    <H2>Burgers</H2>
+                                    <div id="burgerChoice"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+</body>
+</html>
+
